@@ -1,0 +1,199 @@
+
+
+/***************************** COMMON STUFF / BOOTSTRAP TWEAKS / TYPEFACES ***********************************/
+
+body
+{
+  padding-bottom: 150px;
+  /*background-image: url("/images/seamless_paper_texture.png");*/
+  background-color: #edede0;
+}
+
+a
+{
+  text-overflow: ellipsis;
+}
+
+
+/**************************** main content **************************/
+
+
+.main-container
+{
+  margin-top: 2rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(72, 78, 80, 0.2);
+  border-radius: 2px;
+  background-color: white;
+}
+
+
+.toolbox
+{
+  padding-bottom: 1rem;
+}
+
+.spacer
+{
+  padding-bottom: 2rem;
+}
+
+/************************** Header ************************************/
+
+h1.small
+{
+  font-size: 1.3rem;
+}
+
+
+/**************************** Navigation **************************/
+
+.navbar-brand
+{
+  padding: 0;
+}
+
+.nav-centered
+{
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-nav
+{
+  padding-bottom: 20px;
+}
+
+/**************************** footer ****************************/
+.credits {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.credits, .credits a {
+  color: rgb(108, 131, 136);
+}
+
+
+
+
+/******************************** UI ******************************************/
+
+.nav-tabs
+{
+  margin-bottom: 2rem;
+}
+
+label
+{
+  margin-bottom: 0rem;
+  font-weight: bold;
+  /*font-size: 1.2rem;*/
+  font-family: "Roboto Condensed";
+  color: #444;
+}
+
+.trumbowyg
+{
+  margin-top: 0;
+}
+
+.form-group
+{
+  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.result
+{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.badge-unread
+{
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: white;
+  background-color: $danger;
+  font-size: 70%;
+  font-weight: bold;
+}
+
+
+
+
+.tag
+{
+  border: 1px solid #bbb;
+  background-color: #eee;
+  color: #555;
+  font-weight: 400;
+}
+
+.dialog
+{
+  max-width: 50em;
+  padding: 1rem;
+}
+
+.badge-group
+{
+  color: #888;
+  background-color: white;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 25em;
+}
+
+
+.meta
+{
+  color: #888;
+  font-size: 80%;
+}
+
+.meta a
+{
+  color: #888;
+}
+
+
+
+.help {
+  padding: 20px;
+  margin: 20px 0px;
+  border-width: 0px 0px 0px 5px;
+  border-style: solid;
+  border-color: #EEE;
+  border-image: none;
+  border-radius: 3px;
+  border-left-color: #1B809E;
+  background-color: rgb(188, 218, 226);
+}
+
+.help h4 {
+  color: #1B809E;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.help a {
+  text-decoration: underline;
+}
+
+
+.alert a {
+  text-decoration: underline;
+}

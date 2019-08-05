@@ -1,0 +1,52 @@
+
+// Body
+$body-bg: #fff;
+
+// Borders
+$laravel-border-color: darken($body-bg, 20%);
+$list-group-border-color: $laravel-border-color;
+$card-border-color: $laravel-border-color;
+$border-color: $laravel-border-color;
+
+
+$theme-colors: (
+  "primary": #234266,
+  "danger": #ff4136,
+  "info": rgb(7, 87, 139),
+);
+
+$alert-bg-level:     -6;
+$alert-border-level:  0;
+$alert-color-level:    10;
+
+// Brands
+//$primary:       rgb(28, 102, 129);
+//$primary: #3097D1;
+/*
+$primary: #13457a;
+$info: #8eb4cb;
+$success: #2ab27b;
+$warning: #cbb956;
+$danger: #dc3545;
+*/
+
+// Typography
+//$font-family-sans-serif: sans-serif;
+$font-size-base: 0.95rem;
+$font-weight-base: 400;
+$line-height-base: 1.5;
+//$text-color: #636b6f;
+
+// Inputs
+//$input-border-color: lighten($text-color, 40%);
+//$input-placeholder-color: lighten($text-color, 30%);
+
+
+$grid-gutter-width:           2rem;
+$headings-font-family:       'Roboto Condensed', sans-serif;
+$headings-font-weight: 400;
+
+$h1-font-size:                $font-size-base * 2.2;
+$h2-font-size:                $font-size-base * 1.8;
+$h3-font-size:                $font-size-base * 1.4;
+$h4-font-size:                $font-size-base * 1.2;
